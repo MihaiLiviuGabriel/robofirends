@@ -33,9 +33,9 @@ class MainApp extends Component {
 		})
 		if (!robots.length) {
 			return (
-					<article class="vh-100 dt w-100">
-					  <div class="dtc v-mid tc">
-					    <h1 class="f-subheadline-l tc">Loading...</h1>
+					<article className="vh-100 dt w-100">
+					  <div className="dtc v-mid tc">
+					    <h1 className="f-subheadline-l tc">Loading...</h1>
 					  </div>
 					</article>
 					);
